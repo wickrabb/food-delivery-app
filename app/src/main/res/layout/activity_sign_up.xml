@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerVertical="true"
+    tools:context=".SignUpActivity">
+
+
+    <LinearLayout
+        android:id="@+id/layoutLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_20sdp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_bold"
+            android:textAlignment="center"
+            android:padding="@dimen/_10sdp"
+            android:text="Sign Up"
+            android:id="@+id/txSignUp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp" />
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_light"
+            android:padding="@dimen/_10sdp"
+            android:hint="First Name"
+            android:inputType="textPersonName"
+            />
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_light"
+            android:padding="@dimen/_10sdp"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_light"
+            android:padding="@dimen/_10sdp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            />
+        <TextView
+            android:id="@+id/emailError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Field cannot be empty"
+            android:fontFamily="@font/gilroy_bold"
+            android:padding="@dimen/_2sdp"
+            android:textColor="@color/red"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_light"
+            android:padding="@dimen/_10sdp"
+            android:hint="Password"
+            android:inputType="textPassword"
+
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/etCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_light"
+            android:padding="@dimen/_10sdp"
+            android:hint="Country"
+            />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gilroy_light"
+            android:padding="@dimen/_10sdp"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            />
+ />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:id="@+id/btnSignUp"
+            android:layout_margin="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:paddingStart="@dimen/_20sdp"
+            android:paddingEnd="@dimen/_20sdp"
+            android:background="@drawable/btn_bg"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign Up"/>
+    </LinearLayout>
+
+
+</LinearLayout>

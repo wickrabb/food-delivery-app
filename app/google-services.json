@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "860421994525",
+    "project_id": "foodsly-8c0b1",
+    "storage_bucket": "foodsly-8c0b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860421994525:android:efaa7fcbb05d066c24aef4",
+        "android_client_info": {
+          "package_name": "com.gnb.foodsly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860421994525-od0atr2ucqsabu2gpq01t873gocbefbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gnb.foodsly",
+            "certificate_hash": "4ee5b85e8bd4536e31fb90613ca412b1df7f4805"
+          }
+        },
+        {
+          "client_id": "860421994525-dtt8ofvn0ev816dgq7bk3tof8dtv1ngd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-i9x2cN1chSHN5V4GKxZIhK1nSuXCpgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860421994525-dtt8ofvn0ev816dgq7bk3tof8dtv1ngd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
